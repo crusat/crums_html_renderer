@@ -1,0 +1,6 @@
+/public/
+/venv/
+*.pyc
+*.log
+.idea
+.vscode

@@ -1,0 +1,10 @@
+/venv/
+/templates/
+/public/
+/.idea/
+.vscode
+/.git/
+test.py
+README.md
+build.sh
+.gitignore
