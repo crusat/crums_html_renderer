@@ -5,6 +5,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 import json
 
 app = Flask(__name__, template_folder='templates')
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 
 @app.route('/', methods=['POST'])
